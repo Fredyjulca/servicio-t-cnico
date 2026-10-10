@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicio técnico de computadoras y laptops">
+    <title>TechFix | Servicio Técnico</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Tech<span>Fix</span></div>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#precios">Precios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+    <div class="hero-text">
+        <p class="etiqueta">SERVICIO TÉCNICO PROFESIONAL</p>
+        <h1>Soluciones para tu <span>computadora</span></h1>
+        <p>Reparamos, mantenemos y optimizamos computadoras y laptops para que vuelvan a funcionar al máximo.</p>
+        <div class="botones">
+            <a class="btn principal" href="#contacto">Solicitar servicio</a>
+            <a class="btn secundario" href="#servicios">Ver servicios</a>
+        </div>
+    </div>
+    <div class="hero-card">
+        <div class="pc-icon">💻</div>
+        <h3>Diagnóstico confiable</h3>
+        <p>Evaluamos tu equipo antes de realizar cualquier reparación.</p>
+    </div>
+</section>
+
+<section id="servicios">
+    <p class="etiqueta">LO QUE HACEMOS</p>
+    <h2>Nuestros servicios</h2>
+    <div class="grid">
+        <article class="card">
+            <div class="icon">🛠️</div>
+            <h3>Mantenimiento</h3>
+            <p>Limpieza interna, cambio de pasta térmica y mantenimiento preventivo.</p>
+        </article>
+        <article class="card">
+            <div class="icon">🔧</div>
+            <h3>Reparación</h3>
+            <p>Diagnóstico y solución de problemas de hardware y componentes.</p>
+        </article>
+        <article class="card">
+            <div class="icon">🦠</div>
+            <h3>Virus y seguridad</h3>
+            <p>Eliminación de malware y configuración básica de seguridad.</p>
+        </article>
+        <article class="card">
+            <div class="icon">⚙️</div>
+            <h3>Software</h3>
+            <p>Instalación y configuración de sistemas operativos, programas y drivers.</p>
+        </article>
+        <article class="card">
+            <div class="icon">🚀</div>
+            <h3>Optimización</h3>
+            <p>Mejoramos el rendimiento y configuramos tu equipo para un funcionamiento más fluido.</p>
+        </article>
+        <article class="card">
+            <div class="icon">💾</div>
+            <h3>Respaldo de datos</h3>
+            <p>Copias de seguridad y apoyo para proteger tus archivos importantes.</p>
+        </article>
+    </div>
+</section>
+
+<section id="precios" class="precios">
+    <p class="etiqueta">TARIFAS REFERENCIALES</p>
+    <h2>Planes de servicio</h2>
+    <div class="grid precios-grid">
+        <article class="price-card">
+            <h3>Diagnóstico</h3>
+            <div class="precio">S/ 30</div>
+            <p>Revisión inicial del equipo y detección de fallas.</p>
+            <a href="#contacto" class="btn principal">Consultar</a>
+        </article>
+        <article class="price-card destacado">
+            <h3>Mantenimiento</h3>
+            <div class="precio">S/ 80</div>
+            <p>Limpieza, revisión general y optimización básica.</p>
+            <a href="#contacto" class="btn principal">Consultar</a>
+        </article>
+        <article class="price-card">
+            <h3>Soporte completo</h3>
+            <div class="precio">S/ 120</div>
+            <p>Diagnóstico, mantenimiento y configuración de software.</p>
+            <a href="#contacto" class="btn principal">Consultar</a>
+        </article>
+    </div>
+</section>
+
+<section id="nosotros" class="nosotros">
+    <div>
+        <p class="etiqueta">QUIÉNES SOMOS</p>
+        <h2>Comprometidos con tu equipo</h2>
+        <p>Somos un servicio técnico orientado a brindar soluciones informáticas rápidas, responsables y claras. Nuestro objetivo es ayudarte a mantener tus equipos funcionando correctamente.</p>
+        <ul>
+            <li>✓ Atención personalizada</li>
+            <li>✓ Diagnóstico antes de reparar</li>
+            <li>✓ Trabajo responsable</li>
+            <li>✓ Soporte para PC y laptop</li>
+        </ul>
+    </div>
+    <div class="info-box">
+        <strong>¿Tu computadora está lenta?</strong>
+        <p>No esperes a que el problema empeore. Solicita una evaluación.</p>
+        <a href="#contacto" class="btn principal">Contactar</a>
+    </div>
+</section>
+
+<section id="contacto">
+    <p class="etiqueta">CONTÁCTANOS</p>
+    <h2>Solicita tu servicio</h2>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <input type="email" id="correo" placeholder="Correo electrónico" required>
+        <input type="tel" id="telefono" placeholder="Teléfono">
+        <select id="servicio" required>
+            <option value="">Selecciona un servicio</option>
+            <option>Mantenimiento</option>
+            <option>Reparación</option>
+            <option>Virus y seguridad</option>
+            <option>Instalación de software</option>
+            <option>Optimización</option>
+            <option>Respaldo de datos</option>
+        </select>
+        <textarea id="mensaje" placeholder="Describe brevemente el problema" required></textarea>
+        <button type="submit" class="btn principal">Enviar solicitud</button>
+    </form>
+    <p id="respuesta"></p>
+    <a class="whatsapp" href="https://wa.me/51978761302" target="_blank">💬 Escribir por WhatsApp</a>
+</section>
+</main>
+<footer>
+    <p>© 2026 TechFix - Servicio Técnico de Computadoras</p>
+    <p>Proyecto académico desarrollado en Visual Studio Code</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
